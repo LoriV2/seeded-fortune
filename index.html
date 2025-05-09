@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SF</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="center">
+            <h1>Seeded Fortune</h1>
+            <p>Enter the total range and how many numbers you want to draw. Provide the date and time of the lottery, and the interval (in seconds) between each drawn number.</p>            <input type="datetime-local" name="date" id="date-data" onchange="">
+            <input class="numberInput" type="number" name="total" id="total" placeholder="Total">
+            <input class="numberInput" type="number" name="amount" id="amount" placeholder="Amount">
+            <input class="numberInput" type="number" name="interval" id="interval"placeholder="Interval">
+            <input class="button" type="button" value="Generate" onclick="writeData()">
+            <div class="data">
+                <h2>Your lucky numbers are:</h2>
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>

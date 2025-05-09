@@ -1,0 +1,39 @@
+*{
+    border: 0;
+    margin: 0;
+    background-color: #61A0AF;
+    color:#96C9DC;
+    text-align: center;
+}
+
+.wrapper{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    margin: 20px;
+}
+
+.numberInput{
+    width:fit-content;
+    font-size: large;
+}
+
+.button{
+    margin-top: 2vh;
+    background-color: #F06C9B;
+    border-radius: 20px;
+    padding: 10px;
+}
