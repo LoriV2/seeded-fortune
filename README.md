@@ -45,7 +45,9 @@ You will always get the same 6 numbers. It's like a *time-locked* RNG.
 
 ---
 
-<pre> ## 📁 Structure ``` / ├── index.html # Main UI ├── style.css # Styling ├── script.js # RNG logic └── README.md # You're here! ``` </pre>
+## 📁 Structure
+
+![structure](structure.png)
 
 ---
 
